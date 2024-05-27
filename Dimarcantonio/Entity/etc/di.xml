@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Dimarcantonio\Entity\Api\MyEntityRepositoryInterface" type="Dimarcantonio\Entity\Model\MyEntityRepository" />
+    <preference for="Dimarcantonio\Entity\Api\Data\MyEntityInterface" type="Dimarcantonio\Entity\Model\MyEntity" />
+    <preference for="Dimarcantonio\Entity\Api\Data\MyEntitySearchResultInterface" type="Dimarcantonio\Entity\Model\MyEntitySearchResult" />
+</config>
